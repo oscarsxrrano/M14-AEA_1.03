@@ -1,0 +1,28 @@
+.addClass {
+    background-color: rgb(37, 75, 11);
+    color: white;
+    border-radius: 5px;
+}
+
+.addClass:hover {
+    background-color: rgb(34, 179, 53);
+}
+
+.liClass {
+    background-color: rgb(147, 149, 250);
+}
+
+.deleteClass {
+    background-color: rgb(110, 23, 8);
+    color: rgb(255, 255, 255);
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.deleteClass:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+body {
+    background-color: rgb(99, 119, 236);
+}
