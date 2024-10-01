@@ -6,7 +6,7 @@ const addTask =() => {
     const li = document.createElement("li");
     
     li.className = "liClass";
-    li.innerHTML = '${taskInput} <button class="deleteClass">Delete</button>';
+    li.innerHTML = `${taskInput} <button class="deleteClass">Delete</button>`;
 
     const deleteButton = li.querySelector(".deleteClass");
     deleteButton.onclick = () => {
